@@ -10,7 +10,7 @@ export const NAV = [
 
 export const HERO = {
   eyebrow: 'Marketing · HR · Payroll',
-  titleA: 'Grow louder.',
+  titleA: 'Grow Louder.',
   titleB: 'Run smoother.',
   lead:
     "360outreach wraps your business in the three things it can't grow without — digital marketing, HR, and payroll — run by one team that actually talks to each other.",
