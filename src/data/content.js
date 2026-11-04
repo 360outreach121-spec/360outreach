@@ -103,7 +103,7 @@ export const WHY = [
 ]
 
 export const CONTACT = {
-  email: 'hello@360outreach.net',
+  email: 'sachin@360outreach.net',
 
   // ── Direct-to-inbox delivery (optional, recommended) ──────────────────
   // The form works right away by opening a pre-filled email. To receive

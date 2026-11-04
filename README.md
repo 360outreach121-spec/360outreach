@@ -20,4 +20,4 @@ npm run build    # static files in /dist
 
 ## Contact form
 
-It works with no setup: it opens a pre-filled email to hello@360outreach.net. To receive messages straight in the inbox, get a free key from [web3forms.com](https://web3forms.com) and paste it into `accessKey` in `src/data/content.js`.
+It works with no setup: it opens a pre-filled email to sachin@360outreach.net. To receive messages straight in the inbox, get a free key from [web3forms.com](https://web3forms.com) and paste it into `accessKey` in `src/data/content.js`.
