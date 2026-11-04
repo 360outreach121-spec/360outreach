@@ -1,4 +1,3 @@
-import { CONTACT } from '../data/content'
 
 export default function Footer() {
   return (
@@ -32,7 +31,7 @@ export default function Footer() {
 
           <div className="foot-col">
             <h5>Get in touch</h5>
-            <a href={`mailto:${CONTACT.email}`}>{CONTACT.email}</a>
+            <a href="#contact">Send us a message</a>
             <a href="#contact">Meet us at BTS</a>
           </div>
         </div>

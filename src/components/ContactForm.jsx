@@ -89,8 +89,7 @@ export default function ContactForm() {
         </div>
         <h3>Message on its way.</h3>
         <p>
-          Thanks — we’ll get back to you within one business day. Need us sooner? Email{' '}
-          <a href={`mailto:${CONTACT.email}`}>{CONTACT.email}</a>.
+          Thanks — we’ll get back to you within one business day.
         </p>
         <button className="btn btn-ghost" onClick={() => setStatus('idle')}>
           Send another
@@ -164,8 +163,7 @@ export default function ContactForm() {
 
       {status === 'error' && (
         <p className="form-error">
-          Something went wrong sending that. Email us directly at{' '}
-          <a href={`mailto:${CONTACT.email}`}>{CONTACT.email}</a> and we’ll pick it up.
+          Something went wrong sending that. Please try again in a moment.
         </p>
       )}
 

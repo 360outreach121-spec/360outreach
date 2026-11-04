@@ -1,4 +1,3 @@
-import { CONTACT } from '../data/content'
 import Icon from './Icon'
 import ContactForm from './ContactForm'
 
@@ -35,9 +34,6 @@ export default function Contact() {
             ))}
           </ul>
 
-          <a className="pitch-email" href={`mailto:${CONTACT.email}`}>
-            {CONTACT.email}
-          </a>
         </div>
 
         <ContactForm />
