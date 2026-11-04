@@ -4,14 +4,14 @@ import Icon from './Icon'
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
-  const book = () => (window.location.href = `mailto:${CONTACT.email}`)
+  const book = () => (window.location.hash = '#contact')
 
   return (
     <nav>
       <div className="wrap nav-in">
         <a href="#top" className="logo">
           <span className="mark" />
-          <b>360</b>outreach
+          Outreach<b>360</b>
         </a>
 
         <div className="nav-links">
@@ -21,7 +21,7 @@ export default function Navbar() {
             </a>
           ))}
           <button className="btn btn-primary" onClick={book}>
-            Book a call
+            Meet us at BTS
           </button>
         </div>
 
@@ -49,7 +49,7 @@ export default function Navbar() {
               book()
             }}
           >
-            Book a call <Icon name="arrow" size={16} color="#fff" />
+            Meet us at BTS <Icon name="arrow" size={16} color="#fff" />
           </button>
         </div>
       )}

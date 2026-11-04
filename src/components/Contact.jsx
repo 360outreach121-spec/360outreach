@@ -3,8 +3,8 @@ import Icon from './Icon'
 import ContactForm from './ContactForm'
 
 const POINTS = [
-  { icon: 'clock', t: 'A reply within one business day' },
-  { icon: 'link', t: 'One team across marketing, HR & payroll' },
+  { icon: 'reach', t: 'A free check of what the three assistants say about you' },
+  { icon: 'link', t: 'For people who make products, sell them, or build the AI behind them' },
   { icon: 'shield', t: 'No obligation, no hard sell' },
 ]
 
@@ -13,15 +13,15 @@ export default function Contact() {
     <section className="contact" id="contact">
       <div className="wrap contact-grid">
         <div className="contact-pitch">
-          <span className="eyebrow">Ready when you are</span>
+          <span className="eyebrow">Bengaluru Tech Summit · 17–19 November 2026</span>
           <h2 className="display">
-            Let’s close the loop on
+            Meet us for
             <br />
-            your back office.
+            15 minutes.
           </h2>
           <p>
-            Tell us where you’re at across reach, people, and pay. We’ll come back with
-            exactly what one team running all three would change — and what it’d cost.
+            We’ll bring you, free, what ChatGPT, Claude and Perplexity say about your
+            company or your category. Book through InterlinX, or write to us here.
           </p>
 
           <ul className="pitch-points">

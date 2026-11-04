@@ -1,7 +1,7 @@
 import Icon from './Icon'
 
-// The signature element: your business at the core, with the three
-// services orbiting it on counter-rotating rings — a literal "360".
+// The signature element: your brand at the core, with the three AI
+// assistants circling it — how a brand is seen, all the way round.
 export default function Orbit() {
   return (
     <div className="orbit" aria-hidden="true">
@@ -9,9 +9,9 @@ export default function Orbit() {
       <div className="ring r2" />
       <div className="ring r3" />
 
-      <div className="tag t1">Reach</div>
-      <div className="tag t2">People</div>
-      <div className="tag t3">Pay</div>
+      <div className="tag t1">ChatGPT</div>
+      <div className="tag t2">Claude</div>
+      <div className="tag t3">Perplexity</div>
 
       <div className="spin s1">
         <div className="node">
@@ -37,9 +37,9 @@ export default function Orbit() {
 
       <div className="core">
         <div>
-          <div className="k">YOUR BUSINESS</div>
+          <div className="k">YOUR BRAND</div>
           <div className="v">
-            full <span>360°</span>
+            seen <span>360°</span>
           </div>
         </div>
       </div>

@@ -6,11 +6,11 @@ export default function WhyUs() {
     <section className="why" id="why">
       <div className="wrap">
         <div className="sec-head">
-          <span className="eyebrow">Why 360outreach</span>
-          <h2 className="display">Built to take work off your desk.</h2>
+          <span className="eyebrow">Why now</span>
+          <h2 className="display">Shoppers ask AI first.</h2>
           <p>
-            You shouldn't need to become an expert in three things to run one business.
-            That's our job.
+            The way people find products is changing. Most brands cannot yet see what the
+            assistants say about them.
           </p>
         </div>
 

@@ -5,11 +5,11 @@ export default function Process() {
     <section className="process" id="process">
       <div className="wrap">
         <div className="sec-head">
-          <span className="eyebrow">The 360 loop</span>
-          <h2 className="display">A simple loop that keeps closing.</h2>
+          <span className="eyebrow">How we measure</span>
+          <h2 className="display">One answer is not enough.</h2>
           <p>
-            No long lock-ins or mystery retainers. We audit, plan, run, and report — then
-            do it again, a little sharper each cycle.
+            What an assistant recommends changes from ask to ask. So we ask, repeat, check
+            and report, the same way every time.
           </p>
         </div>
 

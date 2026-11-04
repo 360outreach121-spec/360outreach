@@ -37,7 +37,7 @@ export default function ContactForm() {
     }
     setStatus('sending')
 
-    const subject = `New enquiry — ${values.service || '360outreach'}`
+    const subject = `New enquiry — ${values.service || 'Outreach 360'}`
 
     try {
       if (hasRealKey) {
@@ -48,7 +48,7 @@ export default function ContactForm() {
           body: JSON.stringify({
             access_key: CONTACT.accessKey,
             subject,
-            from_name: '360outreach website',
+            from_name: 'Outreach 360 website',
             name: values.name,
             email: values.email,
             company: values.company,
@@ -140,7 +140,7 @@ export default function ContactForm() {
       <div className="field">
         <label htmlFor="service">I’m interested in</label>
         <select id="service" value={values.service} onChange={set('service')}>
-          <option value="">Pick one (or all three)…</option>
+          <option value="">Pick one…</option>
           {CONTACT.services.map((s) => (
             <option key={s} value={s}>
               {s}
@@ -150,13 +150,13 @@ export default function ContactForm() {
       </div>
 
       <div className="field">
-        <label htmlFor="message">What do you need?</label>
+        <label htmlFor="message">What's on your mind?</label>
         <textarea
           id="message"
           rows={4}
           value={values.message}
           onChange={set('message')}
-          placeholder="A line or two about where you're at and what's slowing you down."
+          placeholder="A line or two: your brand or category, or what you'd like to talk about at BTS."
           aria-invalid={!!errors.message}
         />
         {errors.message && <span className="err">{errors.message}</span>}

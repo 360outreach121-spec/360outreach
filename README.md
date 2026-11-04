@@ -1,85 +1,23 @@
-# 360outreach
+# Outreach 360 — 360outreach.net
 
-A professional marketing site for **360outreach** — one partner for **Digital Marketing, HR Services, and Payroll**. Built with React + Vite.
+The website for **Outreach 360**: a brand for the AI age. We build our own products to be found by AI assistants, and we measure for brands what ChatGPT, Claude and Perplexity say about them. Built with React and Vite, hosted on Vercel; a push to `main` puts it live.
 
 ## Run it locally
 
-You'll need [Node.js](https://nodejs.org) 18+ installed.
+You need [Node.js](https://nodejs.org) 18 or newer.
 
 ```bash
-npm install      # install dependencies (first time only)
-npm run dev      # start the dev server → http://localhost:5173
+npm install
+npm run dev      # http://localhost:5173
+npm run build    # static files in /dist
 ```
 
-## Build for production
+## Editing
 
-```bash
-npm run build    # outputs static files to /dist
-npm run preview  # preview the production build locally
-```
-
-Deploy the `dist/` folder to any static host (Vercel, Netlify, Cloudflare Pages, GitHub Pages, S3, etc.).
-
-## Project structure
-
-```
-360outreach/
-├── index.html              # HTML entry, fonts, meta
-├── package.json
-├── vite.config.js
-├── public/
-│   └── favicon.svg
-└── src/
-    ├── main.jsx            # React mount
-    ├── App.jsx             # composes all sections
-    ├── index.css           # all styling + design tokens
-    ├── data/
-    │   └── content.js       # ← edit all copy & services here
-    └── components/
-        ├── Navbar.jsx
-        ├── Hero.jsx
-        ├── Orbit.jsx        # the animated "360" signature
-        ├── Services.jsx
-        ├── Process.jsx
-        ├── StatsBand.jsx
-        ├── WhyUs.jsx
-        ├── CTA.jsx
-        ├── Footer.jsx
-        └── Icon.jsx         # inline SVG icon set
-```
-
-## Editing content
-
-Almost all text lives in **`src/data/content.js`** — services, the process steps,
-stats, the "why us" points, and the contact email. Change it there and it updates
-across the site. No need to touch the components for copy changes.
-
-## Customising the look
-
-Colours and type are driven by CSS variables at the top of **`src/index.css`**:
-
-| Variable   | Meaning                  |
-|------------|--------------------------|
-| `--ink`    | background               |
-| `--coral`  | Reach / Marketing accent |
-| `--mint`   | People / HR accent       |
-| `--gold`   | Pay / Payroll accent     |
-
-## Before going live
-
-- Replace the placeholder email `hello@360outreach.net` in `src/data/content.js`.
-- Review the service copy to match your exact offerings.
+- **Almost all words** live in `src/data/content.js`: menu, hero, the three kinds of work, the measuring steps, numbers, "why now", and the contact email.
+- **Section headings** sit in the components in `src/components/`.
+- **Colours and fonts** are CSS variables at the top of `src/index.css`.
 
 ## Contact form
 
-The form in the Contact section is fully working with **zero setup** — it validates
-input and opens a pre-filled email to your address.
-
-To receive submissions **directly in your inbox** (no mail-client step):
-
-1. Go to [web3forms.com](https://web3forms.com) and enter your email to get a free
-   access key (takes about a minute, no account needed).
-2. Paste the key into `accessKey` in `src/data/content.js`.
-
-That's it — submissions now arrive straight in your inbox. Prefer Formspree or your own
-API instead? Swap the `fetch` call in `src/components/ContactForm.jsx`.
+It works with no setup: it opens a pre-filled email to hello@360outreach.net. To receive messages straight in the inbox, get a free key from [web3forms.com](https://web3forms.com) and paste it into `accessKey` in `src/data/content.js`.

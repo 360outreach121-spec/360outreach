@@ -2,7 +2,7 @@
   "name": "360outreach",
   "private": true,
   "version": "1.0.0",
-  "description": "360outreach — Digital Marketing, HR Services & Payroll. One partner, full circle.",
+  "description": "Outreach 360 — a brand for the AI age.",
   "type": "module",
   "scripts": {
     "dev": "vite",

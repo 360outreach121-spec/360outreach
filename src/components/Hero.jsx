@@ -1,4 +1,4 @@
-import { HERO, CONTACT } from '../data/content'
+import { HERO } from '../data/content'
 import Icon from './Icon'
 import Orbit from './Orbit'
 
@@ -17,8 +17,8 @@ export default function Hero() {
           <p className="lead">{HERO.lead}</p>
 
           <div className="hero-cta">
-            <a className="btn btn-primary" href={`mailto:${CONTACT.email}`}>
-              Book a free call <Icon name="arrow" size={18} color="#fff" />
+            <a className="btn btn-primary" href="#contact">
+              Get a free check <Icon name="arrow" size={18} color="#fff" />
             </a>
             <a className="btn btn-ghost" href="#services">
               See what we do

@@ -8,12 +8,11 @@ export default function Services() {
     <section className="services" id="services">
       <div className="wrap">
         <div className="sec-head">
-          <span className="eyebrow">What we run for you</span>
-          <h2 className="display">Three functions. One accountable team.</h2>
+          <span className="eyebrow">What we do</span>
+          <h2 className="display">Two kinds of work. One bench.</h2>
           <p>
-            Most businesses stitch together an agency, an HR consultant, and a payroll
-            vendor — and spend their week translating between them. We run all three as a
-            single system.
+            Everything we learn about how AI recommends goes into our own products, and into
+            measuring it for brands. Both run on the same bench.
           </p>
         </div>
 
