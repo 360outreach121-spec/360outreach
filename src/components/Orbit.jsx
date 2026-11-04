@@ -16,21 +16,21 @@ export default function Orbit() {
       <div className="spin s1">
         <div className="node">
           <div className="counter c1">
-            <Icon name="reach" color="var(--coral)" />
+            <Icon name="bolt" color="var(--coral)" />
           </div>
         </div>
       </div>
       <div className="spin s2">
         <div className="node">
           <div className="counter c2">
-            <Icon name="people" color="var(--mint)" />
+            <Icon name="link" color="var(--mint)" />
           </div>
         </div>
       </div>
       <div className="spin s3">
         <div className="node">
           <div className="counter c3">
-            <Icon name="pay" color="var(--gold)" />
+            <Icon name="shield" color="var(--gold)" />
           </div>
         </div>
       </div>

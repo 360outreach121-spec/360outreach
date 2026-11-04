@@ -8,7 +8,7 @@ export default function Footer() {
           <div className="foot-col foot-brand">
             <a href="#top" className="logo">
               <span className="mark" />
-              Outreach<b>360</b>
+              <span>Outreach <b>360</b></span>
             </a>
             <p>
               A brand for the AI age. We build products to be found by AI, and measure

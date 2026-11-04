@@ -7,7 +7,6 @@ export const NAV = [
   { label: 'What we do', href: '#services' },
   { label: 'How we measure', href: '#process' },
   { label: 'Why now', href: '#why' },
-  { label: 'Meet us at BTS', href: '#contact' },
 ]
 
 export const HERO = {

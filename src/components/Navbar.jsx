@@ -11,7 +11,7 @@ export default function Navbar() {
       <div className="wrap nav-in">
         <a href="#top" className="logo">
           <span className="mark" />
-          Outreach<b>360</b>
+          <span>Outreach <b>360</b></span>
         </a>
 
         <div className="nav-links">
