@@ -16,9 +16,9 @@ export const HERO = {
   lead:
     'Shoppers now ask ChatGPT, Claude or Perplexity what to buy before they ask a person. We build our own products to be found by them, and we measure for brands what the assistants say about them.',
   stats: [
-    { n: '18%', l: 'of brands named by all three assistants' },
-    { n: '5', l: 'different first picks, same question asked ten times' },
-    { n: '3', l: 'assistants measured: ChatGPT, Claude, Perplexity' },
+    { n: '18%', l: 'Brands named by all three' },
+    { n: '5', l: 'First picks in ten asks' },
+    { n: '3', l: 'Assistants measured' },
   ],
 }
 
