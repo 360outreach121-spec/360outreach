@@ -110,7 +110,7 @@ export const CONTACT = {
   // submissions straight in your inbox (no mail client step), get a FREE
   // access key from https://web3forms.com — it takes ~1 minute and only
   // needs your email. Paste the key below and you're done.
-  accessKey: 'YOUR_WEB3FORMS_ACCESS_KEY',
+  accessKey: '2d3f3cff-a142-4b12-a63a-431c9f2b8a27',
 
   // Options shown in the "I'm interested in" dropdown.
   services: [
